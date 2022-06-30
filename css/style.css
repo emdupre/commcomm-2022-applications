@@ -870,7 +870,7 @@ select {
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: 0.96;
+  opacity: 0.5;
   z-index: 1;
   background-color: #6C63FF; }
 
@@ -954,8 +954,13 @@ select {
   display: none; }
 
 .form {
-  text-align: center;
-  padding: 16pt 0; }
+  -js-display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc( 100vh - 50px);
+  padding: calc( 92px) calc( 92px);
+  max-width: 600px;}
 
 @media (min-width: 992px) {
   .footer__data__item {
