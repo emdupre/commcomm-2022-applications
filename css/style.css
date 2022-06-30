@@ -953,12 +953,12 @@ select {
 .hero--full + .hero__sub {
   display: none; }
 
-.steps {
+.form {
   text-align: center;
   padding: 16pt 0; }
 
 @media (min-width: 992px) {
-  .steps__inner {
+  .footer__data__item {
     -js-display: flex;
     display: flex;
     justify-content: space-around; } }
