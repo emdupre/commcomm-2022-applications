@@ -495,7 +495,7 @@ form {
     display: flex;
     justify-content: space-between; }
     form .double .half {
-      max-width: 80%; }
+      max-width: 70%; }
 
 .form {
   margin-left: calc( 22px);
