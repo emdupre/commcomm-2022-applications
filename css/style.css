@@ -498,8 +498,8 @@ form {
       max-width: 70%; }
 
 .form {
-  margin-left: calc( 22px);
-  margin-right: calc( 22px); }
+  margin-left: calc( 42px);
+  margin-right: calc( 42px); }
 
 label {
   margin-bottom: 2pt;
@@ -574,7 +574,7 @@ select {
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   font-size: .9em;
-  opacity: .80;
+  opacity: .85;
   color: #666; }
 
 :-moz-placeholder {
