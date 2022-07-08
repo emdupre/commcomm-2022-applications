@@ -754,6 +754,7 @@ select {
   font-size: 1.325rem;
   transition: 0;
   color: #fff;
+  padding-top: 10px;
   line-height: 60px;
   text-decoration: none;
   text-align: center;}
@@ -920,7 +921,8 @@ select {
   opacity: 0.85;
   line-height: 1.7;
   text-align: left;
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  text-shadow: 0 1px #564FCC; }
 
 .hero .button {
   margin: 12pt 8pt; }
