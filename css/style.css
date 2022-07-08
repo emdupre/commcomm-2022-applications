@@ -736,7 +736,8 @@ select {
   z-index: 100;
   width: 100%;
   background-color: #6C63FF;
-  transition: 0.7s; }
+  transition: 0.7s;
+  padding-top: 10px;}
   .navbar--nofixed {
     position: relative;
     z-index: 3; }
@@ -754,8 +755,6 @@ select {
   font-size: 1.325rem;
   transition: 0;
   color: #fff;
-  padding-top: 10px;
-  line-height: 60px;
   text-decoration: none;
   text-align: center;}
 
@@ -915,14 +914,15 @@ select {
 /*--- CONTENT STYLING ---*/
 .hero__title {
   color: inherit;
-  margin-bottom: 1.25em; }
+  margin-bottom: 1.25em;
+  text-shadow: 0 1px white;}
 
 .hero__text {
   opacity: 0.85;
   line-height: 1.7;
   text-align: left;
   font-size: 1.1em;
-  text-shadow: 0 1px #564FCC; }
+  text-shadow: 0 1px black; }
 
 .hero .button {
   margin: 12pt 8pt; }
